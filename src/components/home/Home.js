@@ -1,8 +1,7 @@
 import React from 'react';
-
 import './Home.css';
 
-const Home = () => {
+function Home() {
     return (
         <div className="Container">
             <div className="Con_flex">
@@ -22,6 +21,6 @@ const Home = () => {
             </div>
         </div>
     )
-};
+}
 
 export default Home

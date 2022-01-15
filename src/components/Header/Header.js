@@ -1,12 +1,12 @@
 import React from 'react';
 import './Header.css';
 
-const Header = () => {
+function Header() {
     return (
         <header className="header">
             <div className="header_container">
                 <div className="con_logo">
-                    <img src={"../../img/site.lab.png"} alt="site.lab"/>
+                    <img src={"../../img/site.labs.png"} alt="site.lab"/>
                 </div>
                 <div className="con_nav_bar">
                     <ul className="ul">
@@ -19,6 +19,6 @@ const Header = () => {
             </div>
         </header>
     )
-};
+}
 
 export default Header;
