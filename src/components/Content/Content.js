@@ -10,7 +10,7 @@ function Content() {
                         <img src={"./img/icon-operator.png"} alt="operator"/>
                     </div>
                     <div className="box-title">
-
+                        <h2>IT Expertise</h2>
                     </div>
                 </div>
                 <div className="home-box-item">
