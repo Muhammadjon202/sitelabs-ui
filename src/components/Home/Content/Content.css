@@ -39,7 +39,7 @@
     color: #FFFFFF;
 }
 
-.home-box-item:after {
+ .home-box-item:after {
     bottom: 0;
     left: 0;
     position: absolute;
