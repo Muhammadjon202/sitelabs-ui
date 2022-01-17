@@ -1,21 +1,22 @@
 import React from 'react';
+import {Routes, Route} from "react-router-dom";
+
 import Header from './components/Header/Header';
 import './App.css';
 import Home from "./components/home/Home";
 import Content from "./components/Content/Content";
+import About from "./components/About/About";
 
 function App() {
     return (
         <div>
             <Header/>
-            <div className="Main">
-                <div className="Main_container">
-                    <Home/>
-                </div>
-            </div>
-            <Content/>
-        </div>
+            <Routes>
+                <Route path="/" exact={true} element={<Home/>}/>
+                <Route path="/about" element={<About/>}/>
+            </Routes>
 
+        </div>
     );
 }
 
