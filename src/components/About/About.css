@@ -1,0 +1,153 @@
+.About_Main {
+    width: 100%;
+    height: 550px;
+    background: url("/public/img/about_img.png.jpg") no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.Content_About {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    z-index: 2;
+}
+
+.Background_hue {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+
+.About_Info {
+    width: 100%;
+    height: 120vh;
+    padding-top: 45px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Content_info {
+    width: 1140px;
+    height: 670px;
+    background: #FFFFFF;
+}
+
+.Personal_all {
+    padding: 45px 15px 0 35px;
+    width: 100%;
+    height: 100%;
+}
+
+.Personal_inform {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.Personal_img {
+    width: 50%;
+    height: 100%;
+}
+
+.Personal_date {
+    width: 50%;
+    height: 100%;
+}
+
+.Personal_date_h4 {
+    color: #7370D8;
+    font-size: 16px;
+}
+
+.Personal_notes_h1 {
+    font-size: 37px;
+    line-height: 44px;
+    color: #7370D8;
+    margin-bottom: 20px;
+}
+
+.Personal_notes_p {
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.One_Personal {
+    width: 460px;
+    height: 150px;
+    margin: 45px 0 0 25px;
+    border-left: 3px solid #7370D8;
+    padding: 10px 0 0 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.One_Personal p {
+    font-weight: 200;
+}
+
+
+.Personal_btn {
+    padding: 15px 25px;
+    background: #7370D8;
+    border: none;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.We_Personal {
+    margin-top: 55px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.We_Persona p {
+    font-weight: 200;
+    font-size: 16px;
+}
+
+
+.job_market {
+    width: 1300px;
+    height: 320px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.job_market_container {
+    width: 300px;
+    height: 270px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 15px;
+    padding: 30px 45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.job_market_container h3 {
+    color: #865FDC;
+}
+
+.job_market_container p {
+    font-size: 10px;
+    font-weight: 200;
+}

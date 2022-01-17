@@ -61,6 +61,12 @@
     list-style: none;
 }
 
+.con_nav_bar .ul .list_item:target {
+    padding: 10px;
+    background: #7370D8;
+    color: #FFFFFF;
+}
+
 .con_nav_bar .ul .list_item a {
     text-decoration: none;
     outline: none;
