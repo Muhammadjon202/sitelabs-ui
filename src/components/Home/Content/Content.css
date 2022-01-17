@@ -16,7 +16,7 @@
 }
 
 .content-center {
-    width: 70vw;
+    width: 75vw;
 }
 
 .home-box {
@@ -26,7 +26,6 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    position: absolute;
     margin-top: -100px;
 }
 
@@ -57,9 +56,16 @@
     background: #7370D8;
     transition: 1s ease-in-out;
 }
- .home-box-item:hover:after{
+
+.home-box-item:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.home-box-item:hover:after {
     content: "";
     height: 270px;
+    cursor: pointer;
 }
 
 .home-box-item2:hover {
@@ -83,6 +89,7 @@
     flex-direction: column;
     text-align: center;
 }
+
 .box-item-hover {
     background: #7370D8;
     cursor: pointer;
