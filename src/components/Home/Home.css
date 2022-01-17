@@ -57,13 +57,15 @@
 }
 
 .con_tx h1 {
-    font-size: 80px;
+    font-size: 75px;
     color: #7370D8;
 }
 
 .con_tx .con_tx-p {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 35px;
+    color: lightgray;
+    font-weight: 500;
 }
 
 
@@ -77,4 +79,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.Video_img .play {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s linear;
+}
+
+.play i {
+    font-size: 32px;
+}
+
+.play:hover {
+    background: #7370D8;
+    color: #FFFFFF;
+    cursor: pointer;
 }
