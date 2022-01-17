@@ -1,22 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 .header {
     width: 100%;
     height: auto;
     padding: 15px 0;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-bottom: 1px solid #7370D8;
 }
 
 .header_container {
-    width: 1225px;
-    height: auto;
-    padding: 15px 15px;
+    width: 70vw;
     display: flex;
 }
 
 .con_logo {
-    width: 50%;
-    height: auto;
+    width: 70%;
 }
 
 .con_logo img {
@@ -24,8 +30,7 @@
 }
 
 .con_nav_bar {
-    width: 50%;
-    height: auto;
+    width: 30%;
 }
 
 .bt {
@@ -47,8 +52,9 @@
 
 .con_nav_bar .ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 .con_nav_bar .ul .list_item {
