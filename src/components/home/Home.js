@@ -12,7 +12,7 @@ function Home() {
                             <div className="Content_tx">
                                 <div className="con_tx">
                                     <h1>SiteLabs</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    <p className="con_tx-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                                         nostrud
                                         exercitation ullamco</p>
