@@ -49,7 +49,7 @@
     background: #7370D8;
     transition: 1s ease-in-out;
 }
-.home-box-item:hover:after{
+ .home-box-item:hover:after{
     content: "";
     height: 270px;
 }
