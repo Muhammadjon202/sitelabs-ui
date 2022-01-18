@@ -76,6 +76,124 @@ function About() {
                     </div>
                 </div>
             </div>
+
+            <div className="Laptop_page">
+                <div className="Laptop_foreground">
+                    <div className="Laptop_content">
+                        <h2 className="Laptop_content_h2">Don’t Hesitate To Contact Us For Better Information And
+                            Services</h2>
+                        <p className="Laptop_content_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqual</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="Form_page">
+                <div className="form_content">
+                    <div className="form_form">
+                        <div className="form_domestic">
+                            <div className="form_name_form">
+                                <div className="form_details">
+                                    <div className="form_name">
+                                        <h4>Name</h4>
+                                        <input className="form_name_input" type="text" placeholder="Your name"/>
+                                    </div>
+
+                                    <div className="form_name">
+                                        <h4>Email</h4>
+                                        <input className="form_name_input " type="email"
+                                               placeholder="Your Email"/>
+                                    </div>
+
+                                    <div className="form_name">
+                                        <h4>Select</h4>
+                                        <input className="form_name_input" placeholder="Inquiry" type="text"/>
+                                    </div>
+
+                                    <div className="form_name">
+                                        <h4>Telephone</h4>
+                                        <input className="form_name_input" type="number"
+                                               placeholder="Your Phone"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="form_comment">
+                                <h4>Additional Details</h4>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Additional Details"
+                                          className="text_area"/>
+                            </div>
+
+                            <div className="form_bt">
+                                <button className="f_bt">SUBMIT REQUEST</button>
+                            </div>
+                        </div>
+                        <div className="form_img">
+                            <div className="img_back_form">
+                                <div className="back_fond">
+                                    <div className="form_img_content">
+                                        <h1 className="form_img_h1">
+                                            Perfect Solutions For <br/> Your Business
+                                        </h1>
+                                        <p className="image_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                            sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        </p>
+                                        <div>
+                                            <p><i className="fas fa-check-double"/> We are committed to providing
+                                                quality IT Services</p>                                          <p><i
+                                            className="fas fa-check-double"/> Provided by experts to help challenge
+                                            critical activities
+                                        </p>
+                                            <p><i className="fas fa-check-double"/>Really know the true needs and
+                                                expectations of customers
+                                            </p>
+                                            <p><i className="fas fa-check-double"/> Processes of achieving the
+                                                excellence improvements
+                                            </p>
+                                        </div>
+                                        <div className="image-bt">
+                                            <button className="image_bt_1">GET A QUOTE</button>
+                                            <button className="image_bt_2">GET STARTED <i
+                                                className="fas fa-arrow-right"/></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="form_grades">
+                        <div className="form_grades_con">
+                            <div className="form_grades_content">
+                                <i className="fas fa-users"/>
+                                <h1>4,145<i className="fal fa-plus plus_col"/></h1>
+                                <p className="P_profession">Satisfied Clients</p>
+                            </div>
+
+                            <div className="form_grades_content">
+                                <i className="fab fa-telegram-plane"/>
+                                <h1>8,245<i className="fal fa-plus plus_col"/></h1>
+                                <p className="P_profession">Completed Projects</p>
+                            </div>
+
+
+                            <div className="form_grades_content">
+                                <i className="far fa-thumbs-up"/>
+                                <h1>25<i className="fal fa-plus plus_col"/></h1>
+                                <p className="P_profession">Years of Experience</p>
+                            </div>
+
+                            <div className="form_grades_content">
+                                <i className="fas fa-globe-americas"/>
+                                <h1>125<i className="fal fa-plus plus_col"/></h1>
+                                <p className="P_profession">Professional Team</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
