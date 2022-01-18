@@ -12,9 +12,8 @@ function Content() {
                         </div>
                         <div className="box-title">
                             <h2 className="box-title-h2">IT Expertise</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut
-                                labore et dolore</p>
+                            <p  className="box-title-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore</p>
                         </div>
                     </div>
                     <div className="home-box-item">
@@ -23,9 +22,8 @@ function Content() {
                         </div>
                         <div className="box-title">
                             <h2 className="box-title-h2">24/7 IT Support</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut
-                                labore et dolore</p>
+                            <p className="box-title-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore</p>
                         </div>
                     </div>
                     <div className="home-box-item2 box-item-hover">
@@ -33,16 +31,24 @@ function Content() {
                             <h2 className="box-title-h">Custom Request</h2>
                         </div>
                         <div className="box-title">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut
-                                labore et dolore</p>
+                            <p className="box-title-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore</p>
                             <button className="box-title-btn">Find Solution<i className="icon fas fa-arrow-right"/>
                             </button>
                         </div>
                     </div>
                 </div>
                 <div className="home-about-content">
-
+                    <div className="content-about-content">
+                        <div className="about-content-img">
+                            <img src={"./img/home-person1.png"} alt=""/>
+                        </div>
+                        <div className="about-content-title">
+                            <div className="content-title-box">
+                                <h2>About US</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,11 +1,8 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom'
 import './Header.css';
 
 function Header() {
-
-    const [] = useState();
-
     return (
         <header className="header">
             <div className="header_container">
@@ -18,8 +15,9 @@ function Header() {
                     <ul className="ul">
                         <li className="list_item"><Link to="/">Home</Link></li>
                         <li className="list_item"><Link to="/about">About</Link></li>
-                        <li className="list_item"><a href="#">Contact</a></li>
-                        <li className="bt"><a href="#">Get Started</a></li>
+                        <li className="list_item"><Link to="/">Services</Link></li>
+                        <li className="list_item"><Link to="/">Contact</Link></li>
+                        <li className="bt"><Link to="/about">Get Started</Link></li>
                     </ul>
                 </div>
             </div>
