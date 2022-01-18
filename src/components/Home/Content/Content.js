@@ -12,7 +12,8 @@ function Content() {
                         </div>
                         <div className="box-title">
                             <h2 className="box-title-h2">IT Expertise</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
                                 labore et dolore</p>
                         </div>
                     </div>
@@ -22,7 +23,8 @@ function Content() {
                         </div>
                         <div className="box-title">
                             <h2 className="box-title-h2">24/7 IT Support</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
                                 labore et dolore</p>
                         </div>
                     </div>
@@ -31,9 +33,11 @@ function Content() {
                             <h2 className="box-title-h">Custom Request</h2>
                         </div>
                         <div className="box-title">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
                                 labore et dolore</p>
-                            <button className="box-title-btn">Find Solution<i className="icon fas fa-arrow-right"/></button>
+                            <button className="box-title-btn">Find Solution<i className="icon fas fa-arrow-right"/>
+                            </button>
                         </div>
                     </div>
                 </div>

@@ -1,9 +1,7 @@
 import React from 'react';
-
 import './About.css';
-import {Route, Routes, Router,} from 'react-router';
 
-const About = () => {
+function About() {
     return (
         <div>
             <div className="About_Main">
@@ -37,16 +35,19 @@ const About = () => {
                                         130
                                         certified engineers and IT support staff</h4>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco
                                     </p>
                                 </div>
-
                                 <button className="Personal_btn">GET STARTED</button>
-
                                 <div className="We_Personal">
-                                    <p><i className="fas fa-check-double"></i> We are committed to providing quality IT Services</p>
-                                    <p><i className="fas fa-check-double"></i> Provided by experts to help challenge critical activities</p>
-                                    <p><i className="fas fa-check-double"></i> Really know the true needs and expectations of customers</p>
+                                    <p><i className="fas fa-check-double"/> We are committed to providing quality IT
+                                        Services</p>
+                                    <p><i className="fas fa-check-double"/> Provided by experts to help challenge
+                                        critical activities</p>
+                                    <p><i className="fas fa-check-double"/> Really know the true needs and
+                                        expectations of customers</p>
                                 </div>
                             </div>
                         </div>
@@ -58,19 +59,16 @@ const About = () => {
                         <h3>Our Approach</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                     </div>
-
                     <div className="job_market_container">
                         <img src={"img/About_icon/About_icon_2.png"} alt="photo"/>
                         <h3>Our Approach</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                     </div>
-
                     <div className="job_market_container">
                         <img src={"img/About_icon/About_icon_3.png"} alt="photo"/>
                         <h3>Our Approach</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                     </div>
-
                     <div className="job_market_container">
                         <img src={"img/About_icon/About_icon_4.png"} alt="photo"/>
                         <h3>Our Approach</h3>
@@ -80,6 +78,6 @@ const About = () => {
             </div>
         </div>
     )
-};
+}
 
 export default About;
