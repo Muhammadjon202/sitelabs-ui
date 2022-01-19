@@ -219,7 +219,7 @@
 .form_form {
     width: 1100px;
     height: 550px;
-    box-shadow: 0 0 10px rgb(0,0,0);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
     background: #FFFFFF;
     display: flex;
 }
@@ -227,7 +227,7 @@
 .form_domestic {
     width: 60%;
     height: 100%;
-    padding: 15px;
+    padding: 15px 10px 20px 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -298,7 +298,7 @@
 .back_fond {
     width: 100%;
     height: 100%;
-    background: rgba(142,140,218, 0.7);
+    background: rgba(142, 140, 218, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -326,6 +326,7 @@
     padding: 10px 25px;
     color: #7370D8;
     border: none;
+    cursor: pointer;
 }
 
 .image_bt_2 {
@@ -333,6 +334,7 @@
     background: none;
     color: #FFFFFF;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 .image_bt_2 i {
@@ -364,4 +366,55 @@
 .P_profession {
     color: #b4b4b4;
     font-size: 15px;
+}
+
+.foto_personal_page {
+    width: 100%;
+    height: 730px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.foto_personal_content {
+    width: 1190px;
+    height: 150px;
+}
+
+.foto_personal_text {
+    width: 100%;
+    height: 100%;
+    margin: 10px 0 0 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.personal_text {
+    width: 600px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.personal_text_p {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: #b4b4b4;
+}
+
+.personal_text_head {
+    color: #865FDC;
+}
+
+.foto_personal {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
 }

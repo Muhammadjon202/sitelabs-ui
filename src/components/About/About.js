@@ -194,6 +194,32 @@ function About() {
                     </div>
                 </div>
             </div>
+
+            <div className="foto_personal_page">
+                <div className="foto_personal_content">
+                    <div className="foto_personal_text">
+                        <div className="personal_text">
+                            <h3 className="personal_text_head">OUE TEAM</h3>
+                            <h1>Meet Professional Team</h1>
+                            <p className="personal_text_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br/>incididunt
+                                ut labore et dolore magna aliqua</p>
+                        </div>
+                    </div>
+                    <div className="foto_personal">
+                        <div className="foto_person_img">
+                            <img src={"./img/Personal_img/personal_1.jpg"} alt="photo"/>
+                        </div>
+
+                        <div className="foto_person_img">
+                            <img src={"./img/Personal_img/personal_2.jpg"} alt="photo"/>
+                        </div>
+
+                        <div className="foto_person_img">
+                            <img src={"./img/Personal_img/personal_3.jpg"} alt="photo"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
