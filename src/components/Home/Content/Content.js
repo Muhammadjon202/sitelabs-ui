@@ -12,7 +12,8 @@ function Content() {
                         </div>
                         <div className="box-title">
                             <h2 className="box-title-h2">IT Expertise</h2>
-                            <p  className="box-title-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            <p className="box-title-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt
                                 ut labore et dolore</p>
                         </div>
                     </div>
@@ -22,7 +23,8 @@ function Content() {
                         </div>
                         <div className="box-title">
                             <h2 className="box-title-h2">24/7 IT Support</h2>
-                            <p className="box-title-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            <p className="box-title-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt
                                 ut labore et dolore</p>
                         </div>
                     </div>
@@ -31,7 +33,8 @@ function Content() {
                             <h2 className="box-title-h">Custom Request</h2>
                         </div>
                         <div className="box-title">
-                            <p className="box-title-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            <p className="box-title-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt
                                 ut labore et dolore</p>
                             <button className="box-title-btn">Find Solution<i className="icon fas fa-arrow-right"/>
                             </button>
@@ -45,7 +48,22 @@ function Content() {
                         </div>
                         <div className="about-content-title">
                             <div className="content-title-box">
-                                <h2>About US</h2>
+                                <h2 className="content-title-h2">About US</h2>
+                                <h1 className="content-title-h1">Let Us Be Your Partners Preferred IT Partner
+                                </h1>
+                                <p className="content-title-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris
+                                </p>
+                            </div>
+                            <div className="content-title-box2">
+                                <div className="box2-item">
+
+                                </div>
+                            </div>
+                            <div className="content-title-box3">
+
                             </div>
                         </div>
                     </div>
