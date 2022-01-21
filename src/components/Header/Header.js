@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Link} from 'react-router-dom'
 import './Header.css';
 
 function Header() {
+    const [active, setActive] = useState(0);
+
     return (
         <header className="header">
             <div className="header_container">
@@ -13,10 +15,14 @@ function Header() {
                 </div>
                 <div className="con_nav_bar">
                     <ul className="ul">
-                        <li className="list_item"><Link to="/">Home</Link></li>
-                        <li className="list_item"><Link to="/about">About</Link></li>
-                        <li className="list_item"><Link to="/">Services</Link></li>
-                        <li className="list_item"><Link to="/">Contact</Link></li>
+                        <li onClick={() => setActive(0)} className={`list_item${active === 0 ? " active" : ""}`}>
+                            <span> </span><Link to="/">Home</Link></li>
+                        <li onClick={() => setActive(1)} className={`list_item${active === 1 ? " active" : ""}`}>
+                            <span> </span><Link to="/about">About</Link></li>
+                        <li onClick={() => setActive(2)} className={`list_item${active === 2 ? " active" : ""}`}>
+                            <span> </span><Link to="/">Services</Link></li>
+                        <li onClick={() => setActive(3)} className={`list_item${active === 3 ? " active" : ""}`}>
+                            <span> </span><Link to="/">Contact</Link></li>
                         <li className="bt"><Link to="/about">Get Started</Link></li>
                     </ul>
                 </div>

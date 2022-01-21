@@ -19,19 +19,20 @@
 .header_container {
     width: 75vw;
     display: flex;
+    justify-content: space-between;
 }
 
-.con_logo {
-    width: 70%;
-}
+/*.con_logo {*/
+/*    width: 70%;*/
+/*}*/
 
 .con_logo img {
     width: 120px;
 }
 
-.con_nav_bar {
-    width: 30%;
-}
+/*.con_nav_bar {*/
+/*    width: 30%;*/
+/*}*/
 
 .bt {
     padding: 10px 15px;
@@ -58,6 +59,8 @@
 }
 
 .con_nav_bar .ul .list_item {
+    position: relative;
+    padding: 10px 15px;
     list-style: none;
 }
 
@@ -76,4 +79,29 @@
 
 .con_nav_bar .ul .list_item a:hover {
     color: #865FDC;
+}
+
+.con_nav_bar .ul .active a {
+    color: #7370D8;
+}
+
+.con_nav_bar .ul li span {
+    position: absolute;
+    border-bottom: 4px solid transparent;
+    transform: translateX(-100%);
+    transition: 0.3s;
+    margin-top: 24px;
+    width: 70%;
+}
+
+.con_nav_bar .ul li:hover span {
+    transition: 0.3s;
+    transform: translateX(0);
+    width: 75%;
+    border-bottom: 4px solid #7370D8;
+}
+
+.con_nav_bar .ul .active span {
+    border-bottom: 4px solid #7370D8;
+    transform: translateX(0);
 }
