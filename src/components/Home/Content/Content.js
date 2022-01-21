@@ -59,7 +59,13 @@ function Content() {
                             </div>
                             <div className="content-title-box2">
                                 <div className="box2-item">
-
+                                    <p className="box2-item-p">As one of the world’s largest IT Service Providers, our
+                                        deep pool of over 130 certified engineers and IT support staff
+                                    </p>
+                                    <p className="box2-item-p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                        sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco</p>
                                 </div>
                             </div>
                             <div className="content-title-box3">

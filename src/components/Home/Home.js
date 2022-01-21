@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Content from "./Content/Content";
+import Footer from "../Footer/Footer";
 
 function Home() {
     return (
@@ -34,6 +35,7 @@ function Home() {
                 </div>
             </div>
             <Content/>
+            <Footer/>
         </div>
     )
 }
