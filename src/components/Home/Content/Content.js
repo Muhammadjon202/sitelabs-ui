@@ -69,6 +69,61 @@ function Content() {
                                 </div>
                             </div>
                             <div className="content-title-box3">
+                                <div className="title-box-btn">
+                                    <button>Get Started</button>
+                                </div>
+                                <div className="title-box-title">
+                                    <div className="title-box-box">
+                                        <i className="fas fa-check"/>
+                                        <p>We are committed to providing quality IT Services</p>
+                                    </div>
+                                    <div className="title-box-box">
+                                        <i className="fas fa-check"/>
+                                        <p>Provided by experts to help challenge critical activities</p>
+                                    </div>
+                                    <div className="title-box-box">
+                                        <i className="fas fa-check"/>
+                                        <p>Really know the true needs and expectations of customers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div className="our-service-container">
+                    <div className="home-service-content">
+                        <div className="home-service-box1">
+                            <div className="service-box-item1">
+                                <div className="service-box-item-title">
+                                    <div className="service-box-item-title-h">
+                                        <h2>our services</h2>
+                                        <h1>Solutions & Focus Areas</h1>
+                                    </div>
+                                    <div className="service-box-item-title-p">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscin elit, sed do eiusmod tempor
+                                            incididunt ut labore dolore magna aliqua</p>
+                                    </div>
+                                </div>
+                                <div className="service-box-item-btn">
+                                    <button className="service-box-btn">All Services</button>
+                                </div>
+                            </div>
+                            <div className="service-box-item1">
+
+                            </div>
+                            <div className="service-box-item1">
+
+                            </div>
+                        </div>
+                        <div className="home-service-box2">
+                            <div className="service-box-item2">
+
+                            </div>
+                            <div className="service-box-item2">
+
+                            </div>
+                            <div className="service-box-item2">
 
                             </div>
                         </div>
