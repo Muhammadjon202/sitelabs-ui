@@ -36,7 +36,7 @@
     background: #FFFFFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 35px 30px;
-
+    transition: 0.7s;
 }
 
 .home-box-item2 {

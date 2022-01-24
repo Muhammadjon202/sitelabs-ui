@@ -20,7 +20,7 @@ function Header() {
                         <li onClick={() => setActive(1)} className={`list_item${active === 1 ? " active" : ""}`}>
                             <span> </span><Link to="/about">About</Link></li>
                         <li onClick={() => setActive(2)} className={`list_item${active === 2 ? " active" : ""}`}>
-                            <span> </span><Link to="/">Services</Link></li>
+                            <span> </span><Link to="/services" >Services</Link></li>
                         <li onClick={() => setActive(3)} className={`list_item${active === 3 ? " active" : ""}`}>
                             <span> </span><Link to="/">Contact</Link></li>
                         <li className="bt"><Link to="/about">Get Started</Link></li>

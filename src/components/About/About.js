@@ -203,7 +203,8 @@ function About() {
                         <div className="personal_text">
                             <h3 className="personal_text_head">OUE TEAM</h3>
                             <h1>Meet Professional Team</h1>
-                            <p className="personal_text_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br/>incididunt
+                            <p className="personal_text_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor <br/>incididunt
                                 ut labore et dolore magna aliqua</p>
                         </div>
                     </div>

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap');
+.services{
+    width: 100%;
+    height: 100vh;
+}
+.services_container{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../../public/img/about_img.png.jpg");
+    background-size: cover;
+}
+.services_main{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.services_content_about h1{
+    font-size: 40px;
+    font-family: Roboto, sans-serif;
+}
+.services_content_about p{
+    font-size: 21px;
+    font-family: Roboto, sans-serif;
+}
