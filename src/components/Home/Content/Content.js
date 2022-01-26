@@ -110,21 +110,51 @@ function Content() {
                                 </div>
                             </div>
                             <div className="service-box-item1">
-
+                                <div className="service-box-item-title1">
+                                    <img src={"./img/home-our-services-icons.png"} alt=""/>
+                                    <h2>IT Management</h2>
+                                    <p>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore dolore</p>
+                                    <a href="#">Read More <i className="fas fa-arrow-right"/></a>
+                                </div>
                             </div>
                             <div className="service-box-item1">
-
+                                <div className="service-box-item-title1">
+                                    <img src={"./img/home-our-services.png"} alt=""/>
+                                    <h2>Cyber Security</h2>
+                                    <p>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore dolore</p>
+                                    <a href="#">Read More <i className="fas fa-arrow-right"/></a>
+                                </div>
                             </div>
                         </div>
                         <div className="home-service-box2">
                             <div className="service-box-item2">
-
+                                <div className="service-box-item-title1">
+                                    <img src={"./img/home-our-services-icon1.png"} alt=""/>
+                                    <h2>Cloud Computing</h2>
+                                    <p>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore dolore</p>
+                                    <a href="#">Read More <i className="fas fa-arrow-right"/></a>
+                                </div>
                             </div>
                             <div className="service-box-item2">
-
+                                <div className="service-box-item-title1">
+                                    <img src={"./img/home-our-services-icons2.png"} alt=""/>
+                                    <h2>Software Developer</h2>
+                                    <p>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore dolore</p>
+                                    <a href="#">Read More <i className="fas fa-arrow-right"/></a>
+                                </div>
                             </div>
                             <div className="service-box-item2">
-
+                                <div className="service-box-item-title2">
+                                    <div className="service-box-item-title2-opacity">
+                                        <div className="service-box-item-title2-btn">
+                                            <i className="fas fa-play"/>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

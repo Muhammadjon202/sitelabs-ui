@@ -4,7 +4,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: "Product Sans",  sans-serif;
+    font-family: "Product Sans", sans-serif;
 }
 
 .Content {
@@ -328,17 +328,19 @@
 .home-service-box1 .service-box-item1 {
     width: 360px;
     height: 300px;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
-    /*align-items: center;*/
     flex-direction: column;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
 }
 
 .home-service-box2 .service-box-item2 {
     width: 360px;
     height: 305px;
-    border: 1px solid black;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .service-box-btn {
@@ -410,4 +412,70 @@
 .service-box-item-title-h h1 {
     color: #272b36;
     font-size: 38px;
+}
+
+.service-box-item-title1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.service-box-item-title1 h2 {
+    color: #272b36;
+    font-size: 24px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.service-box-item-title1 p {
+    color: #7A7A7A;
+    font-size: 16px;
+    line-height: 25px;
+    word-spacing: 2px;
+    font-weight: 500;
+}
+
+.service-box-item-title1 a {
+    color: #7370D8;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+.service-box-item-title2 {
+    width: 100%;
+    height: 100%;
+    background-image: url("/public/img/hosi.png");
+}
+
+.service-box-item-title2-opacity {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-box-item-title2-btn {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+.service-box-item-title2-btn i {
+    font-size: 21px;
+    color: #7370D8;
 }
