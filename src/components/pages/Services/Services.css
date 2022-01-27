@@ -26,3 +26,124 @@
     font-size: 21px;
     font-family: Roboto, sans-serif;
 }
+.services_content{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 95px;
+}
+.services_content_items{
+    width: 75%;
+    height: 100%;
+}
+.services_container_text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.services_container_text p{
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    color: #7370D8;
+}
+.services_container_text_description{
+    margin-top: 30px;
+}
+.services_container_text_description h2{
+    font-size: 40px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+}
+.services_container_text_description h5{
+    font-size: 12px;
+    font-weight: initial;
+    font-style: normal;
+    margin-top: 10px;
+    font-family: Roboto, sans-serif;
+    color: #444444;
+}
+.services_categories{
+    margin-top: 150px;
+}
+.services_categories_first{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.first_categories{
+    width: 300px;
+    height: 270px;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+.services_it_category{
+    background-color: #7370d8;
+}
+.first_categories h2{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.first_categories p{
+    font-size: 12px;
+    font-weight: initial;
+    font-style: normal;
+    margin-top: 20px;
+    font-family: Roboto, sans-serif;
+    color: #444444;
+}
+.services_read_category{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.services_read_category h5{
+    color: #7370d8;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.for_it{
+    color: #ffffff!important;
+}
+.services_categories_second{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.second_categories{
+    width: 300px;
+    height: 270px;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+.second_categories h2{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.second_categories p{
+    font-size: 12px;
+    font-weight: initial;
+    font-style: normal;
+    margin-top: 20px;
+    font-family: Roboto, sans-serif;
+    color: #444444;
+}
