@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap');
-.services{
+
+.services {
     width: 100%;
     height: 100vh;
 }
-.services_container{
+
+.services_container {
     width: 100%;
     height: 100%;
     background-image: url("../../../../public/img/about_img.png.jpg");
     background-size: cover;
 }
-.services_main{
+
+.services_main {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
@@ -18,49 +21,57 @@
     align-items: center;
     color: #ffffff;
 }
-.services_content_about h1{
+
+.services_content_about h1 {
     font-size: 40px;
     font-family: Roboto, sans-serif;
 }
-.services_content_about p{
+
+.services_content_about p {
     font-size: 21px;
     font-family: Roboto, sans-serif;
 }
-.services_content{
+
+.services_content {
     width: 100%;
-    height: 500px;
     display: flex;
     justify-content: center;
     margin-top: 95px;
 }
-.services_content_items{
-    width: 75%;
+
+.services_content_items {
+    min-width: 85%;
     height: 100%;
 }
-.services_container_text{
+
+.services_container_text {
     width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
 }
-.services_container_text p{
+
+.services_container_text p {
     font-size: 16px;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 800;
     color: #7370D8;
 }
-.services_container_text_description{
+
+.services_container_text_description {
     margin-top: 30px;
 }
-.services_container_text_description h2{
+
+.services_container_text_description h2 {
     font-size: 40px;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 800;
 }
-.services_container_text_description h5{
+
+.services_container_text_description h5 {
     font-size: 12px;
     font-weight: initial;
     font-style: normal;
@@ -68,47 +79,70 @@
     font-family: Roboto, sans-serif;
     color: #444444;
 }
-.services_categories{
+
+.services_categories {
     margin-top: 150px;
 }
-.services_categories_first{
+
+.services_categories_first {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
-.first_categories{
-    width: 300px;
-    height: 270px;
+
+.services_marketing_category {
+    max-width: 20%;
+}
+
+.first_categories {
+    max-width: 300px;
+    position: relative;
+    max-height: 270px;
     text-align: center;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 20px;
+    transition: 0.4s;
 }
-.services_it_category{
+
+.services_it_category {
     background-color: #7370d8;
 }
-.first_categories h2{
+
+.it_cyber {
+    width: 80%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.first_categories h2 {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 800;
     margin-top: 10px;
+    transition: 0.4s;
 }
-.first_categories p{
+
+.first_categories p {
     font-size: 12px;
     font-weight: initial;
     font-style: normal;
     margin-top: 20px;
+    z-index: 22;
     font-family: Roboto, sans-serif;
     color: #444444;
 }
-.services_read_category{
+
+.services_read_category {
     width: 100%;
     height: 40px;
     display: flex;
+    z-index: 999;
     margin-top: 20px;
     align-items: center;
     justify-content: center;
 }
-.services_read_category h5{
+
+.services_read_category h5 {
     color: #7370d8;
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -116,34 +150,214 @@
     font-size: 16px;
     margin-right: 10px;
     cursor: pointer;
+    transition: 0.3s;
 }
-.for_it{
-    color: #ffffff!important;
+
+.for_it {
+    color: #ffffff !important;
 }
-.services_categories_second{
+
+.services_categories_second {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     margin-top: 60px;
 }
-.second_categories{
-    width: 300px;
-    height: 270px;
+
+.second_categories {
+    max-width: 300px;
+    max-height: 270px;
     text-align: center;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 20px;
 }
-.second_categories h2{
+
+.soft_consult {
+    width: 80%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.second_categories h2 {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 800;
+    transition: 0.3s;
     margin-top: 10px;
 }
-.second_categories p{
+
+.second_categories p {
     font-size: 12px;
     font-weight: initial;
     font-style: normal;
     margin-top: 20px;
     font-family: Roboto, sans-serif;
     color: #444444;
+}
+
+.first_categories:after {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    background: #7370D8;
+    transition: 0.4s ease-in-out;
+}
+
+.services_clients {
+    width: 100%;
+    height: 605px;
+    display: flex;
+    margin-top: 180px;
+}
+
+.left {
+    width: 55%;
+    height: 100%;
+    background-image: url("../../../../public/img/Services/services_conversation.png");
+    background-size: cover;
+}
+
+.right {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: #7370D8;
+    align-items: center;
+    text-align: center;
+}
+
+.right h2 {
+    font-size: 42px;
+    margin-top: 62px;
+    font-family: Roboto, sans-serif;
+}
+
+.right img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.right p {
+    font-size: 18px;
+}
+.right h3{
+    margin-top: 15px;
+}
+.person_img{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 1100px) {
+    .services_categories_first {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services_categories_second {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .soft_consult {
+        max-width: 100%;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+
+    .it_cyber {
+        max-width: 100%;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+
+    .services_marketing_category {
+        min-width: 80%;
+    }
+
+    .services_cloud_category {
+        min-width: 80%;
+    }
+}
+
+/* plans*/
+.services_plans{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.services_plans_text p{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    color: #7370d8;
+}
+.services_plans_text h2{
+    font-size: 38px;
+    font-family: Roboto, sans-serif;
+}
+.services_plans_text h5{
+    margin-top: 30px;
+    font-size: 16px;
+    font-style: normal;
+    color: #7A7A7A;
+    font-weight: initial;
+}
+.services_plans_content{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.plans{
+    width: 31%;
+    height: 100%;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 900px){
+    .services_clients{
+        flex-direction: column;
+        height: auto;
+    }
+    .right{
+        width: 100%;
+    }
+    .left{
+        width: 100%;
+        height: 400px   ;
+    }
+}
+@media screen and (max-width: 768px) {
+    .it_cyber {
+        flex-direction: column;
+    }
+
+    .soft_consult {
+        flex-direction: column;
+    }
+
+    .oth {
+        min-width: 100%;
+    }
+
+    .services_cyber_category {
+        margin-top: 20px;
+    }
 }
