@@ -130,10 +130,95 @@ function Services() {
                         labore et dolore magna aliqua </h5>
                 </div>
                 <div className="services_plans_content">
-                    <div className="basic plans"> </div>
-                    <div className="silver plans"> </div>
-                    <div className="gold plans"> </div>
+                    <div className="basic plans">
+                        <h1>Basic Plan</h1>
+                        <h2>$35</h2>
+                        <p>Per Month</p>
+                        <div className="plans_categories">
+                            <div className="cat_it_cons categ_plan">
+                                <img src={"img/icons/chek.svg"} className={"categ_img"} alt=""/>
+                                <h4>IT Consultation</h4>
+                            </div>
+                            <hr/>
+                            <div className="cat_it_cons categ_plan">
+                                <img src={"img/icons/chek.svg"} className={"categ_img"} alt=""/>
+                                <h4>IT Consultation</h4>
+                            </div>
+                            <hr/>
+                            <div className="cat_it_cons categ_plan">
+                                <img src={"img/icons/chek.svg"} className={"categ_img"} alt=""/>
+                                <h4>IT Consultation</h4>
+                            </div>
+                            <hr/>
+                            <div className="cat_it_cons categ_plan">
+                                <img src={"img/icons/chek.svg"} className={"categ_img"} alt=""/>
+                                <h4>IT Consultation</h4>
+                            </div>
+                            <hr/>
+                        </div>
+                        <button>GET STARTED</button>
+
+                    </div>
+                    <div className="silver plans">
+                        <h1>Basic Plan</h1>
+                        <h2>$35</h2>
+                        <p>Per Month</p>
+                        <div className="plans_categories">
+                            <div className="cat_it_cons categ_plan">
+                                <img src={"img/icons/chek.svg"} alt=""/>
+                                <h4>IT Consultation</h4>
+                            </div>
+                            <hr/>
+                            <div className="cat_it_cons categ_plan">
+                                <img src={"img/icons/chek.svg"} alt=""/>
+                                <h4>IT Consultation</h4>
+                            </div>
+                            <hr/>
+                            <div className="cat_it_cons categ_plan">
+                                <img src={"img/icons/chek.svg"} alt=""/>
+                                <h4>IT Consultation</h4>
+                            </div>
+                            <hr/>
+                            <div className="cat_it_cons categ_plan">
+                                <img src={"img/icons/chek.svg"} alt=""/>
+                                <h4>IT Consultation</h4>
+                            </div>
+                            <hr/>
+                        </div>
+                        <button>GET STARTED</button>
+                    </div>
+                    <div className="gold plans">
+                        <h1>Basic Plan</h1>
+                        <h2>$35</h2>
+                        <p>Per Month</p>
+                        <div className="plans_categories">
+                            <div className="cat_it_cons categ_plan">
+                                <img src={"img/icons/chek.svg"} alt=""/>
+                                <h4>IT Consultation</h4>
+                            </div>
+                            <hr/>
+                            <div className="cat_it_cons categ_plan">
+                                <img src={"img/icons/chek.svg"} alt=""/>
+                                <h4>IT Consultation</h4>
+                            </div>
+                            <hr/>
+                            <div className="cat_it_cons categ_plan">
+                                <img src={"img/icons/chek.svg"} alt=""/>
+                                <h4>IT Consultation</h4>
+                            </div>
+                            <hr/>
+                            <div className="cat_it_cons categ_plan">
+                                <img src={"img/icons/chek.svg"} alt=""/>
+                                <h4>IT Consultation</h4>
+                            </div>
+                            <hr/>
+                        </div>
+                        <button>GET STARTED</button>
+                    </div>
                 </div>
+            </div>
+            <div className="services_provide">
+
             </div>
         </div>
     );
