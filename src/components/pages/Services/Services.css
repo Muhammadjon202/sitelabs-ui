@@ -91,7 +91,7 @@
 }
 
 .services_marketing_category {
-    max-width: 20%;
+    max-width: 40%;
 }
 
 .first_categories {
@@ -109,7 +109,7 @@
 }
 
 .it_cyber {
-    width: 80%;
+    width: 60%;
     justify-content: space-evenly;
     display: flex;
 }
@@ -173,7 +173,7 @@
 }
 
 .soft_consult {
-    width: 80%;
+    width: 60%;
     justify-content: space-evenly;
     display: flex;
 }
@@ -262,40 +262,35 @@
 .services_provide{
     width: 100%;
     height: 400px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 180px;
+    margin-bottom: 70px ;
+    background-image: url("../../../../public/img/Services/bgforit.png");
 }
-@media screen and (max-width: 1100px) {
-    .services_categories_first {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .services_categories_second {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .soft_consult {
-        max-width: 100%;
-        margin-top: 20px;
-        justify-content: space-between;
-    }
-
-    .it_cyber {
-        max-width: 100%;
-        margin-top: 20px;
-        justify-content: space-between;
-    }
-
-    .services_marketing_category {
-        min-width: 80%;
-    }
-
-    .services_cloud_category {
-        min-width: 80%;
-    }
+.services_provide h2{
+    font-size: 32px;
+    font-family: Roboto, sans-serif;
+    font-weight: initial;
+}
+.services_provide p{
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: initial;
+    font-style: normal;
+    margin-top: 12px;
+}
+.serv_get{
+    width: 180px;
+    height: 50px;
+    background-color: #7370d8!important;
+    color: #ffffff!important;
+    border: none;
+    margin-top: 20px;
 }
 
 /* plans*/
@@ -395,6 +390,9 @@
     background-color: #7370d8;
     color: #ffffff;
 }
+.services_cloud_category{
+    width: 60%;
+}
 .services_plans_content hr{
     height: 3px;
     width: 80%;
@@ -402,6 +400,40 @@
     opacity: 33%;
     margin-top: 30px;
 }
+@media screen and (max-width: 1100px) {
+    .services_categories_first {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services_categories_second {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .soft_consult {
+        width: 80%;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+
+    .it_cyber {
+        width: 80%;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+
+    .services_marketing_category {
+        min-width: 80%;
+    }
+
+    .services_cloud_category {
+        min-width: 80%;
+    }
+}
+
 @media screen and (max-width: 900px){
     .services_clients{
         flex-direction: column;

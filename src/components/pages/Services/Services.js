@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Services.css"
+import Footer from "../../Footer/Footer";
 
 function Services() {
     return (
@@ -218,8 +219,15 @@ function Services() {
                 </div>
             </div>
             <div className="services_provide">
-
+                <img src={"img/icons/play.png"} width={"70px"} alt=""/>
+                <h2>We Provide Outsourced IT Services For<br/> Small & Mid-Sized Business</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/> incididunt ut
+                    labore et dolore magna aliqua</p>
+                <button className={"serv_get"}>
+                    GET STARTED
+                </button>
             </div>
+            <Footer/>
         </div>
     );
 }
